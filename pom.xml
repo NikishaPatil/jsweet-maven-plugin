@@ -18,6 +18,8 @@
 		<maven.version>3.6.3</maven.version>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
 		<timestamp>${maven.build.timestamp}</timestamp>
+
+        <version.org.sonatype.plugins.nexus-staging-maven-plugin>1.6.13</version.org.sonatype.plugins.nexus-staging-maven-plugin>
 	</properties>
 
 	<developers>
@@ -31,6 +33,11 @@
 			<name>Eric Ponthiaux</name>
 			<email>ponthiaux.eric@gmail.com</email>
 		</developer>
+        <developer>
+            <id>EricWittmann</id>
+            <name>Eric Wittmann</name>
+            <email>eric.wittmann@gmail.com</email>
+        </developer>
 	</developers>
 	<licenses>
 		<license>
@@ -44,9 +51,9 @@
 		<system>GitHub Issues</system>
 	</issueManagement>
 	<scm>
-		<url>https://github.com/lgrignon/jsweet-maven-plugin</url>
-		<connection>scm:git:git://github.com/lgrignon/jsweet-maven-plugin.git</connection>
-		<developerConnection>scm:git:git@github.com:lgrignon/jsweet-maven-plugin.git</developerConnection>
+		<url>https://github.com/Apicurio/jsweet-maven-plugin</url>
+		<connection>scm:git:git://github.com/Apicurio/jsweet-maven-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:Apicurio/jsweet-maven-plugin.git</developerConnection>
 	</scm>
 
 	<build>

@@ -64,6 +64,7 @@ import org.jsweet.transpiler.util.ProcessUtil;
 
 import com.sun.source.util.JavacTask;
 
+@SuppressWarnings("deprecation")
 public abstract class AbstractJSweetMojo extends AbstractMojo {
 
     @Parameter(alias = "target", required = false)
@@ -642,6 +643,7 @@ public abstract class AbstractJSweetMojo extends AbstractMojo {
     private class JSweetMavenPluginTranspilationHandler extends ErrorCountTranspilationHandler {
 
         class Error {
+            @SuppressWarnings("unused")
             final JSweetProblem problem;
             final SourcePosition sourcePosition;
             final String message;
