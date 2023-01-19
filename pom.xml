@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.apicurio</groupId>
 	<artifactId>jsweet-maven-plugin</artifactId>
-	<version>3.1.1.RedHat</version>
+	<version>3.1.1-SNAPSHOT</version>
 	<name>JSweet maven plugin</name>
 	<description>JSweet maven plugin providing build and clean operations of JSweet sources</description>
 	<url>http://www.jsweet.org</url>
