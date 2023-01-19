@@ -120,7 +120,6 @@ jobs:
 
       - name: Commit Snapshot Version Change
         run: |
-          git add .
-          git restore --staged .npmrc    # can't commit, contains NPM token
+          git add pom.xml
           git commit -m"Automated version update: ${{ github.event.inputs.snapshot-version}}"
           git push
