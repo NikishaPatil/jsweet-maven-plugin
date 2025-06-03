@@ -217,15 +217,14 @@
                 <plugins>
                     <plugin>
                         <groupId>org.sonatype.central</groupId>
-						<artifactId>central-publishing-maven-plugin</artifactId>
-						<version>1.7.0</version>
-						<extensions>true</extensions>
-						<configuration>
-							<publishingServerId>central</publishingServerId>
-							<waitUntil>published</waitUntil>
-							<autoPublish>true</autoPublish>
-							<autoReleaseAfterClose>true</autoReleaseAfterClose>
-						</configuration>
+			<artifactId>central-publishing-maven-plugin</artifactId>
+			<version>0.7.0</version>
+			<extensions>true</extensions>
+			<configuration>
+				<publishingServerId>central</publishingServerId>
+				<waitUntil>published</waitUntil>
+				<autoPublish>true</autoPublish>
+				<autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
                     <plugin>
